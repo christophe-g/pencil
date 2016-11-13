@@ -64,7 +64,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         font-size: 24px;
         font-weight: 500;
         line-height: 28px;
-        margin: 0;
+        /*margin: 0;*/
       }
 
       .price {
@@ -120,6 +120,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
         h1 {
           font-size: 20px;
           line-height: 24px;
+          /*margin: 12px 0 32px;*/
         }
 
         .price {
@@ -153,7 +154,7 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
       <pencil-image alt="[[item.title]]" src="[[item.largeImage]]"></pencil-image>
       <div class="detail" has-content$="[[_isDefined(item)]]">
         <h1>[[item.title]]</h1>
-        <div class="price">[[_formatPrice(item.price)]]</div>
+        <!-- <div class="price">[[_formatPrice(item.price)]]</div> -->
         <div class="pickers">
           <pencil-select>
             <label id="sizeLabel" prefix>Size</label>
